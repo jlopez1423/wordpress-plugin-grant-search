@@ -1,0 +1,113 @@
+#breadcrumbs {
+	display: none;
+}
+.header-wrap #header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d53736+0,b62e2e+100 */
+	background: #d53736; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d53736 0%, #b62e2e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d53736), color-stop(100%,#b62e2e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d53736 0%,#b62e2e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d53736 0%,#b62e2e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d53736 0%,#b62e2e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d53736 0%,#b62e2e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d53736', endColorstr='#b62e2e',GradientType=0 ); /* IE6-9 */
+}
+#container .page-header-standard #overlay-menu {
+	top: 125px !important;
+}
+#main-container .page-heading {
+	border-bottom: 1px solid #282828;
+	padding: 18px 0;
+}
+#main-container .page-heading h1 {
+	color: #fff;
+}
+#main-container #login li, 
+#main-container #search_data li {
+	margin-bottom: 0;
+}
+#login #search_grants_form input[type="submit"], 
+#search_data #search_grants_form input[type="submit"] {
+	background-color: #efd2d4;
+	font-size: 21px;
+	border: 1px solid #d53736;
+	font-weight: normal;
+	color: #d53736;
+	padding: 17px 25px;
+	line-height: 1;
+}
+#main-container input[type="submit"]:hover, 
+#main-container button[type="submit"]:hover, 
+#main-container input[type="submit"]:focus, 
+#main-container button[type="submit"]:focus {
+	background-color: #d53736 !important;
+	color: #fff !important;
+	-moz-border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    border-radius: 2px !important;
+    border: 1px solid #d53736 !important;
+}
+#reset_form {
+	font-size: 16px;
+	margin-left: 10px;
+}
+#main-container #search_data #lookup,
+#main-container #search_data select {
+	border: 1px solid #808080;
+}
+#main-container input[type="text"], 
+#main-container input[type="email"], 
+#main-container input[type="password"], 
+#main-container textarea, 
+#main-container select, 
+#main-container .wpcf7 input[type="text"], 
+#main-container .wpcf7 input[type="email"], 
+#main-container .wpcf7 textarea, 
+#main-container .wpcf7 select, 
+#main-container .ginput_container input[type="text"], 
+#main-container .ginput_container input[type="email"], 
+#main-container .ginput_container textarea, 
+#main-container .ginput_container select, 
+#main-container .mymail-form input[type="text"], 
+#main-container .mymail-form input[type="email"], 
+#main-container .mymail-form textarea, 
+#main-container .mymail-form select, 
+#main-container input[type="date"], 
+#main-container input[type="tel"], 
+#main-container input[type="number"] {
+	font-size: 16px !important;
+	margin-top: 6px !important;
+	margin-bottom: 9px !important;
+}
+/*@media only screen and (min-width: 1441px) {
+	#footer-widgets .ft_columns ul li {
+	    float: left;
+	    font-size: 16px;
+	    line-height: 22px;
+	    display: inline-block;
+	    vertical-align: middle;
+	    margin-right: 17px!important;
+	}
+}*/
+#footer-widgets ul li {
+	font-size: 16px;
+}
+#footer-widgets .widget ul li > a {
+	padding: 0;
+}
+@media(max-width: 991px) {
+	#search_data select.one_half {
+		margin-right: 25px !important;
+	}
+	#reset_form {
+		display: block;
+		margin-top: 20px;
+	}
+}
+@media(max-width: 767px) {
+	#main-container #login li, 
+	#main-container #search_data li {
+		display: table;
+		max-width: 93%;
+	}
+}
